@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: black;
+     min-width: 1170px;
+}    
+.wrapper{
+     height: auto;
+     width: 100%;
+   
+}
+.container{
+     position: relative;
+     margin: 0 auto;
+     width: 1440px;
+}
+.header{
+     width: 100%;
+     height: 90px;
+     background-color: black;
+}
+.image-back{
+     margin: 20px 0;
+     width: 100%;
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;
+     background-image: url('../img/IMAGE.png');
+
+}
+a,h1,h2,h3,h4,ul,li,p{
+     margin: 0;padding: 0;
+     text-decoration: none;
+     list-style: none;
+     color: white
+}
+.post-block{
+     position: relative;
+   
+     height: 100vh;
+
+}
+.title-logo{
+     font-weight: 100;
+}
+.menu-header{
+     display: flex;
+     position: relative;
+     top: 30px;
+}
+.menu-list-header{
+     position: absolute;
+     right: 0;
+     display: flex;
+}
+.item-menu-list{
+     font-size: 14px;
+     margin: 0 0 0 30px;
+     position: relative;
+     top: 8px;
+}
+.title-text-box{
+     opacity: 1;
+     text-align: center;
+     width: 700px;
+     top: 55vh;
+    
+}
+.text-box{
+     
+     margin: 10px 0;
+}
+.title-text-box h4{
+     opacity: 0.7;
+     font-weight: 100;
+}
+.title-text-box h1{
+     font-weight: 100;
+     font-size: 64px;
+}
+.post-block-title{
+     text-align: center;
+}
+.post-block-title h1{
+     font-weight: 100;
+}
+.posts-box{
+     height: 1000px;
+     position: relative;
+     top: 40px;
+}
+.post-item{
+     position: relative;
+     height: 600px;
+     width: 576px;
+   
+}
+.left{
+     
+     float: left;
+     margin-left: 130px;
+}
+.right{
+     float: right;
+     margin-right: 130px;
+}
+.post-item{
+     margin-top: 20px;
+}
+#image1{
+     background-image: url('../img/IMAGE1.png');
+}
+#image2{
+     background-image: url('../img/IMAGE2.png');
+}
+#image3{
+     background-image: url('../img/IMAGE3.png');
+}
+#image4{
+     background-image: url('../img/IMAGE4.png');
+}
+@media screen and (max-height: 436px){
+     .post-block{
+          position: relative;
+          top: 100px;
+          
+     
+     }
+}
+@media screen and (max-width:1220px) {
+     .left{
+          position: relative;
+          float: none;
+          margin: 20px auto;
+     }
+     .right{
+          position: relative;
+          margin: 20px auto;
+          float: none;
+     }
+     
+}
+.post-text-box{
+     width: 500px;
+     position: absolute;
+     bottom: 20px;
+     left: 30px;
+}
+.title-post-text-box{
+     font-weight: 100;
+    ;
+}
+.text-post-text-box{
+     padding: 10px 0 30px 0;
+     font-size: 14px;
+}
+.btn-success-post{
+     margin-top: 10px;
+     padding: 8px 22px;
+     background-color: white;
+     color: black;
+     border-radius: 8px;
+     font-weight: 900;
+}
+.btn-success-post:hover{
+     font-size: 15px;
+     padding: 10px 25px;
+     transition: 0.4s;
+}
+.slides-box{
+   
+     position: relative;
+    height: 100vh;
+    top: 350px;
+    
+}
+.slide-image-box{
+    
+     height: 600px;
+     background-repeat: no-repeat;
+     background-position: center ;
+     background-image: url('../img/slideLine.jpg');
+}
+.text-line-box{
+     position: absolute;
+     width: 500px;
+     right: 30px;
+     bottom: 250px
+}
+.text-line-box h3{
+     font-weight: 100;
+}
+.slides-line-bottom{
+     height: 540px;
+     width: 1440px ;
+}
+#slide2{
+     height: 540px;
+     position: absolute;
+     width: 720px;
+     right: 0;
+     background-repeat: no-repeat;
+     background-image: url('../img/slideBottom.png');
+}
+#slide1{
+     height: 540px;
+     position: absolute;
+     width: 720px;
+     left: 0;
+}
+.text-line-box h3{
+     font-weight: 100;
+}
+.slide-line-bottom h3{
+     padding: 10px 0;
+}
+.text-box-slide-line{
+     position: relative;
+    width: 500px;
+    margin: 0 auto;
+    top: 150px
+
+}
+.no-active{
+     opacity: 0.9;
+     margin: 0 0 30px 0;
+     height: 31px;
+     overflow: hidden;
+     
+}
